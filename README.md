@@ -20,7 +20,7 @@ Charging thresholds configured: yes (artinya tersedia)
 ```
 sudo nano /etc/tlp.conf
 ```
-### cari di bagian 
+### cari di bagian ini, hapus tanda (#)
 ```
 START_CHARGE_THRESH_BAT0=75
 STOP_CHARGE_THRESH_BAT0=85
