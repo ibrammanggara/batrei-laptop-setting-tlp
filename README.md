@@ -34,3 +34,12 @@ sudo apt install tp-smapi-dkms acpi-call-dkms
 ### lalu reboot
 
 ### cek juga batrei lu itu BAT0 atau BAT1 atau BAT?
+
+# cek batrey adv
+
+```
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+```
+```
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep energy
+```
